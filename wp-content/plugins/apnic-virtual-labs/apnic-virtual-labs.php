@@ -13,8 +13,7 @@ if( !defined('ABSPATH') ) exit;
 add_action('init', 'apnic_list_settings');
 
 function apnic_list_settings(){
-	apnic_get_remote();
-	
+	//apnic_get_remote();	
 }
 
 function apnic_get_remote() {
