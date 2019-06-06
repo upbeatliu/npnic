@@ -1,0 +1,43 @@
+.home {
+	p {
+		color: $apnic-text;
+		font-size: 16px;
+	}
+	.list-number {
+		display: flex;
+		.count {
+			font-weight: 700;
+		}
+	}
+	.apnic-post {
+		display: flex;
+		border-top: 1px solid #bfbfbf;
+    margin-top: 20px;
+    padding-top: 20px;		
+		.img-wrap {
+			width: 24%;
+			img {
+				width: 200px;
+				height: 110px;
+			}
+		}
+		.text-wrap {
+			width: 76%;
+			margin: -9px 0 0 5px;
+			.title-lang {
+				h3 {
+					font-size: 18px;
+					letter-spacing: 0.3px;
+					margin: 0;
+					color: $apnic-dark-blue;
+			    display: inline-flex;
+				}
+				.lang-duration {
+			    display: inline-flex;
+    			float: right;
+    			margin-top: 5px;
+				}
+			}
+		}
+	}
+}
