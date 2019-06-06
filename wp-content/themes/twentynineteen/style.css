@@ -11141,14 +11141,25 @@ svg {
   border-top: 1px solid #bfbfbf;
   margin-top: 20px;
   padding-top: 20px; }
+  @media only screen and (max-width: 768px) {
+    .home .apnic-post {
+      display: block; } }
   .home .apnic-post .img-wrap {
     width: 24%; }
+    @media only screen and (max-width: 768px) {
+      .home .apnic-post .img-wrap {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px; } }
     .home .apnic-post .img-wrap img {
-      width: 200px;
-      height: 110px; }
+      max-width: 200px;
+      width: 100%; }
   .home .apnic-post .text-wrap {
     width: 76%;
     margin: -9px 0 0 5px; }
+    @media only screen and (max-width: 768px) {
+      .home .apnic-post .text-wrap {
+        width: 100%; } }
     .home .apnic-post .text-wrap .title-lang h3 {
       font-size: 18px;
       letter-spacing: 0.3px;

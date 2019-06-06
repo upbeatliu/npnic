@@ -11,18 +11,29 @@
 	}
 	.apnic-post {
 		display: flex;
+		@media only screen and (max-width: 768px) {
+			display: block;
+		}
 		border-top: 1px solid #bfbfbf;
     margin-top: 20px;
-    padding-top: 20px;		
+    padding-top: 20px;    		
 		.img-wrap {
 			width: 24%;
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+				text-align: center;
+				margin-bottom: 10px;
+			}
 			img {
-				width: 200px;
-				height: 110px;
+				max-width: 200px;
+				width: 100%;
 			}
 		}
 		.text-wrap {
 			width: 76%;
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+			}			
 			margin: -9px 0 0 5px;
 			.title-lang {
 				h3 {
